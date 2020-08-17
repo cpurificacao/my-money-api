@@ -1,0 +1,22 @@
+{
+  "name": "my-money-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cpurificacao <carlos_dbdesktop@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:start": "nodemon",
+    "prod:start": "pm2 start src/main.js --name my-money-api"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "express-query-int": "3.0.0",
+    "lodash": "4.17.20",
+    "mongoose": "5.10.0",
+    "mongoose-paginate": "5.0.3",
+    "pm2": "4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  }
+}
