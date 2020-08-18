@@ -3,4 +3,7 @@ const mongoose = require("mongoose");
 
 mongoose.Promise = global.Promise;
 
-module.exports = mongoose.connect(`mongodb://${HOST}:${PORT}/${DB}`);
+const uri = `mongodb://${HOST}:${PORT}/${DB}`;
+const options = { useNewUrlParse: true, useUnifiedTopology: true };
+
+module.exports = mongoose.connect(uri, options);
