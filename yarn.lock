@@ -1339,6 +1339,13 @@ netmask@^1.0.6:
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
   integrity sha1-ICl+idhvb2QA8lDZ9Pa0wZRfzTU=
 
+node-restful@0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/node-restful/-/node-restful-0.2.6.tgz#42ab3adc8c1a5f94ed864799845f8efe311e632e"
+  integrity sha1-Qqs63IwaX5TthkeZhF+O/jEeYy4=
+  dependencies:
+    underscore "1.8.3"
+
 nodemon@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.4.tgz#55b09319eb488d6394aa9818148c0c2d1c04c416"
@@ -2068,6 +2075,11 @@ undefsafe@^2.0.2:
   integrity sha512-nrXZwwXrD/T/JXeygJqdCO6NZZ1L66HrxM/Z7mIq2oPanoN0F1nLx3lwJMu6AwJY69hdixaFQOuoYsMjE5/C2A==
   dependencies:
     debug "^2.2.0"
+
+underscore@1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
+  integrity sha1-Tz+1OxBuYJf8+ctBCfKl6b36UCI=
 
 unique-string@^2.0.0:
   version "2.0.0"
