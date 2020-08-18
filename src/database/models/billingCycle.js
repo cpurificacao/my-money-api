@@ -1,4 +1,5 @@
-const { Schema, model } = require("mongoose");
+const { Schema } = require("mongoose");
+const restful = require("node-restful");
 
 const creditSchema = new Schema({
   name: {
@@ -47,4 +48,4 @@ const billingCycleSchema = new Schema({
   debits: [debitSchema],
 });
 
-module.exports = model("BillingCycle", billingCycleSchema);
+module.exports = restful.model("BillingCycle", billingCycleSchema);
