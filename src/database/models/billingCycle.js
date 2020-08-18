@@ -27,10 +27,10 @@ const debitSchema = new Schema({
     type: String,
     required: [true, "Informe o status do débito!"],
     uppercase: true,
-    enum: [
-      ["AGENDADO", "PAGO", "PENDENTE"],
-      "O status do débito deve ser AGENDADO, PAGO ou PENDENTE!",
-    ],
+    enum: {
+      values: ["AGENDADO", "PAGO", "PENDENTE"],
+      message: "O status do débito deve ser AGENDADO, PAGO ou PENDENTE!",
+    },
   },
 });
 
