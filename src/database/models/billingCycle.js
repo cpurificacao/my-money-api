@@ -19,7 +19,7 @@ const debitSchema = new Schema({
     required: true,
   },
   value: {
-    type: String,
+    type: Number,
     min: 1,
     required: true,
   },
