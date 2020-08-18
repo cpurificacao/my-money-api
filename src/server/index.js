@@ -5,4 +5,4 @@ const app = express();
 
 app.use(express.json());
 
-app.listen(PORT, () => console.log(`SERVER is running on port ${PORT}...`));
+app.listen(PORT, () => console.log(`BACKEND is running on port ${PORT}...`));
