@@ -1,7 +1,11 @@
 const billingCycleModel = require("../database/models/billingCycle");
+const errorHandler = require("../helpers/errorHandler");
 
 billingCycleModel.methods(["get", "post", "put", "delete"]);
+
 billingCycleModel.updateOptions({ new: true, runValidators: true });
+
+billingCycleModel.after("post", errorHandler).after("put", errorHandler);
 
 billingCycleModel.route("count", (req, res, next) => {
   billingCycleModel.count((err, data) => {
