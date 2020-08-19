@@ -266,11 +266,6 @@ blessed@0.1.81:
   resolved "https://registry.yarnpkg.com/blessed/-/blessed-0.1.81.tgz#f962d687ec2c369570ae71af843256e6d0ca1129"
   integrity sha1-+WLWh+wsNpVwrnGvhDJW5tDKESk=
 
-bluebird@3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.0.5.tgz#2ff9d07c9b3edb29d6d280fe07528365e7ecd392"
-  integrity sha1-L/nQfJs+2ynW0oD+B1KDZefs05I=
-
 bluebird@3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
@@ -720,11 +715,6 @@ eventemitter2@~0.4.14:
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-0.4.14.tgz#8f61b75cde012b2e9eb284d4545583b5643b61ab"
   integrity sha1-j2G3XN4BKy6esoTUVFWDtWQ7Yas=
-
-express-query-int@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/express-query-int/-/express-query-int-3.0.0.tgz#acae1921d376f170cf5d2f31b10e2f62bb2dc7bd"
-  integrity sha512-fwuyB0gm75tgSQHimJHXQLRCIRht6ZHVHWh9A8WbtymA+KNPOc42O9NgWCcRW/OkfI6wHTqOYCNpzJsT8nUHzA==
 
 express@4.17.1:
   version "4.17.1"
@@ -1272,13 +1262,6 @@ mongoose-legacy-pluralize@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha512-Yo/7qQU4/EyIS8YDFSeenIvXxZN+ld7YdV9LqFVQJzTLye8unujAWPZ4NWKfFA+RNjh+wvTWKY9Z3E5XM6ZZiQ==
-
-mongoose-paginate@5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/mongoose-paginate/-/mongoose-paginate-5.0.3.tgz#d7ae49ed5bf64f1f7af7620ea865b67058c55371"
-  integrity sha1-165J7Vv2Tx9692IOqGW2cFjFU3E=
-  dependencies:
-    bluebird "3.0.5"
 
 mongoose@5.10.0:
   version "5.10.0"
