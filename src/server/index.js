@@ -13,6 +13,6 @@ app.use(cors);
 
 app.use("/api", billingCycleRouter);
 
-app.listen(SV_PORT, () =>
-  console.log(`BACKEND is running on port ${SV_PORT}...`)
+app.listen(SV_PORT || 8080, () =>
+  console.log(`BACKEND is running on port ${SV_PORT || 8080}...`)
 );
