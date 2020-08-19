@@ -1,4 +1,4 @@
-const { PORT } = require("../constants/server");
+const { SV_PORT } = process.env;
 const express = require("express");
 
 const cors = require("../middlewares/cors");
@@ -13,4 +13,6 @@ app.use(cors);
 
 app.use("/api", billingCycleRouter);
 
-app.listen(PORT, () => console.log(`BACKEND is running on port ${PORT}...`));
+app.listen(SV_PORT, () =>
+  console.log(`BACKEND is running on port ${SV_PORT}...`)
+);
