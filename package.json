@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "dev:start": "nodemon",
-    "prod:start": "pm2 start src/main.js --name my-money-api"
+    "prod:start": "pm2 start src/main.js --name my-money-api",
+    "prod:restart": "pm2 restart my-money-api",
+    "prod:monitor": "pm2 monitor my-money-api"
   },
   "dependencies": {
     "cors": "2.8.5",
